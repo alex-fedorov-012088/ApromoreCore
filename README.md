@@ -29,6 +29,7 @@ If you are looking for the commercial edition (Apromore Enterprise Edition), che
 * Browse [(http://localhost:8181/)](http://localhost:8181/). Login as an administrator by using the following credentials: username - "admin" and password - "password". You can also create a new account. Once logged in, a user can change their password via `Account -> Change password` menu.
 * Keep the prompt/terminal window open. Ctrl-C on the window will shut the server down.
 
+UPD. Alexey Fedorov. execute - ./gradlew bu bR -x test --args='--spring.profiles.active=dev'
 
 ## Configuration
 The following configuration options apply to all editions of Apromore.
